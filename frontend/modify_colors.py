@@ -1,7 +1,7 @@
 import os
 import glob
 
-FRONTEND_DIR = r"c:\Programacion\Git\CoffeBeansWeb\Coffe-Beans-Menu\frontend\src"
+FRONTEND_DIR = os.path.join(os.path.dirname(__file__), "src")
 
 COLOR_MAP = {
     "#6B2D3E": "#50768C",
